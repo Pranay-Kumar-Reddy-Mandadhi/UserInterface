@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: black url(https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg);
+            background-size: cover;
+        }
+        #form-details
+        {
+            
+            background: linear-gradient(30deg,rgb(187, 165, 18),rgb(219, 161, 100),rgb(125, 6, 87));
+            text-align: center;
+            padding: 20px;
+            width: 300px;
+            height: 400px;
+            margin:100px  auto;
+        }
+        .data input[type="text"],
+        .data input[type="email"],
+        .data input[type="password"],
+        .data textarea,
+        select
+        {
+            margin-bottom: 8px;
+            width: 180px;
+            height: 30px;
+            border: 0px;
+            outline: none;
+            background: none;
+            color: black;
+            border-bottom: 3px solid black;
+        }
+        select
+        {
+            width: 180px;
+            margin-top: 5px;
+        }
+        input[type="submit"]:hover
+        {
+            box-shadow: 0px 0px 10px white;
+        }
+        ::placeholder
+        {
+            color: white;
+        }
+        .fa
+        {
+            color:white;
+            font-size:50px;
+            position: relative;
+            top:-40px;
+            background-color:black;
+            border-radius:100%;
+            border:10px solid black;
+        }
+    </style>
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/css/all.css">
+
+</head>
+<body>
+    <div id="form-details">
+        <div>
+            <i class="fa fa-user-circle"></i>
+        </div>
+        <form >
+           <div class="data">
+            <input type="text" placeholder="UserName">
+           </div>
+           <div class="data">
+            <input type="email" placeholder="Email">
+           </div>
+           <div class="data">
+            <input type="password" placeholder="password">
+           </div>
+           <div class="data">
+            <input type="password" placeholder="confirm password">
+           </div>
+           <div class="data">
+           <textarea placeholder="descriptioon"></textarea>
+           </div>
+           <div class="data">
+                <select>
+                    <option >....select....</option>
+                    <option>Banglore</option>
+                    <option>Hyderabad</option>
+                    <option>Chennai</option>
+                    <option>Vizag</option>
+                </select>
+           </div>
+           <div class="data">
+            <input type="submit">
+           </div>
+          
+        </form>
+    </div>
+</body>
+</html>
